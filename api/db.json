@@ -1,0 +1,187 @@
+{
+  "dicionaty": [
+    {
+      "id": 1,
+      "lemma": "can",
+      "postag": "VERB",
+      "postag_detail": "secondConjugation",
+      "lemma_it": "cane",
+      "status": "draft",
+      "audio_file": null,
+      "flexforms": [],
+      "glosses": [{
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Mammifero domestico",
+          "status": "published",
+          "phrases": 15
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Persona crudele, iraconda, avara",
+          "status": "published",
+          "phrases": 7
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Persona assolutamente incapace nel proprio lavoro",
+          "status": "published",
+          "phrases": 0
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Parte del meccanismo di un'arma da fuoco",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Con valore intensificativo, rafforzativo",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Costare, valere",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Trasformarsi, cambiarsi, ridursi",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Essere, sentirsi, comportarsi in un dato modo",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Essere opportuno, adeguato, necessario",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Piacere, essere gradito, soddisfare",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Procedere, svolgersi",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Seguito da un participio passato, vale per lo più “dover essere”",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Essere messo, essere collocato",
+          "status": "published",
+          "phrases": 4
+        }
+      ]
+    }, {
+      "id": 2,
+      "lemma": "cana",
+      "postag": "VERB",
+      "postag_detail": "secondConjugation",
+      "lemma_it": "canna",
+      "status": "draft",
+      "audio_file": null,
+      "flexforms": [],
+      "glosses": [{
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Bot., Arundo donax, pianta erbacea con fusto alto, sottile ed elastico",
+          "status": "published",
+          "phrases": 15
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Bastone, pertica",
+          "status": "published",
+          "phrases": 7
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Canna da pesca",
+          "status": "published",
+          "phrases": 0
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "Gola, trachea, esofago",
+          "status": "published",
+          "phrases": 4
+        }
+      ]
+    }, {
+      "id": 3,
+      "lemma": "canà",
+      "postag": "VERB",
+      "postag_detail": "secondConjugation",
+      "lemma_it": "italian",
+      "status": "draft",
+      "audio_file": null,
+      "flexforms": [],
+      "glosses": []
+    },
+    {
+      "id": 4,
+      "lemma": "cëna",
+      "postag": "VERB",
+      "postag_detail": "secondConjugation",
+      "lemma_it": "italiano",
+      "status": "draft",
+      "audio_file": null,
+      "flexforms": [],
+      "glosses": [
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "1",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "2",
+          "status": "published",
+          "phrases": 4
+        },
+        {
+          "id": 0,
+          "lemma_id": 0,
+          "semantics": "3",
+          "status": "published",
+          "phrases": 4
+        }
+      ]
+    }
+  ]
+}

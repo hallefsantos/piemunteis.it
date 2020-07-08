@@ -1,0 +1,101 @@
+/* Dicionario -------------------------- */
+.dicionario {margin: 50px 0;}
+
+/* Dicionario Tab -------------------------- */
+.dicionario .uk-tab {margin-bottom: 0;}
+.dicionario .uk-tab li {
+   padding-left: 0;
+   margin-left: 20px;
+}
+
+.dicionario .uk-tab>.uk-active>a {
+   border: 0;
+   color: #FFF;
+}
+
+.dicionario .uk-tab::before {display: none;}
+
+.dicionario .dicionario__form,
+.dicionario .uk-tab>.uk-active {
+   background-color: #1A4E61;
+}
+
+/* Dicionario Form -------------------------- */
+.dicionario .dicionario__form .uk-width-1-1 {position: relative;}
+.dicionario .dicionario__form.italiano,
+.dicionario .uk-tab>.uk-active.dicionario__opt-italiano {background-color: #90A4AE;}
+
+.dicionario .dicionario__form {padding: 20px;position: relative;}
+.dicionario .dicionario__form input[type="text"] {
+   border-radius: 3px;
+   width: calc(100% - 60px);
+}
+
+.dicionario .dicionario__form button[type="submit"] {
+   width: 50px;
+   padding: 0;
+   margin-left: 5px;
+   color: #FFF;
+}
+
+/* Dicionario Special Caractere -------------------------- */
+.dicionario .dicionario__special-caracteres {margin-top: 5px;}
+.dicionario .dicionario__special-caracteres button {text-transform: initial;}
+.dicionario .dicionario__special-caracteres button {
+   background-color: #FFF;
+   border-radius: 3px;
+   padding: 6px 10px;
+   line-height: 1;
+   margin: 4px;
+}
+
+.dicionario .dicionario__special-caracteres button:last-of-type {margin-right: 60px;}
+
+/* Dicionario Results -------------------------- */
+.dicionario .dicionario__results {
+   position: absolute;
+   top: 82px;
+   left: 0;
+   width: calc(100% - 82px);
+   background-color: #FFF;
+   border: 1px solid #ccc;
+   z-index: 99;
+   display: none;
+   padding: 10px;
+}
+
+.dicionario .dicionario__results.active{display: block;}
+.dicionario .dicionario__result {margin-bottom: 5px;}
+
+.dicionario .dicionario__result ul,
+.dicionario .dicionario__result ul li,
+.dicionario .dicionario__result p {
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+}
+
+.dicionario .dicionario__result ul {
+   list-style: none;
+   margin-left: 30px;
+   font-style: italic;
+}
+
+/* Tiles -------------------------- */
+.tiles .uk-card{
+    height: 100%;
+    padding: 100px 30px 20px;
+    font-size: 20px;
+    font-size: 30px;
+    line-height: 1.3;
+    border: 1px solid #EEEEEE;
+}
+
+
+/* Breakpoints -------------------------- */
+@media screen and (max-width: 968px){
+    .tiles .uk-card {
+        font-size: 25px;
+        padding: 30px 20px;
+    }
+}

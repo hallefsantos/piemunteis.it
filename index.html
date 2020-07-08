@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dicionário Piemunteis</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/css/uikit.min.css"
+      integrity="sha512-VfPp6o8LqWjBb8wOqc4JZciCKYKkooptgsam3wg6Pz8xZLKRk8+E8qizaV6P50qRix7gE0nlDqVaTiq2iorXgg=="
+      crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+   <div id="dicionario" class="dicionario uk-container uk-margin-medium">
+      <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+         <div class="uk-flex uk-flex-center">
+            <div class="uk-width-1-1@m">
+
+               <ul class="uk-flex-center" id="dicionario__opt" uk-tab>
+                  <li class="dicionario__opt-piemunteis uk-active"><a href="#">Piemunteis</a></li>
+                  <li class="dicionario__opt-italiano"><a href="#">Italiano</a></li>
+               </ul>
+
+               <form id="dicionario__form" class="dicionario__form">
+                  <div class="uk-width-1-1">
+                     <input class="uk-input" type="text" placeholder="Serca in piemunteis">
+                     <button class="uk-button uk-button-default" type="submit"><span
+                           uk-icon="icon: search; ratio: 1.5"></span></button>
+
+                     <div id="dicionario__results" class="dicionario__results"></div>
+                  </div>
+
+                  <div class="uk-grid-small" uk-grid>
+                     <div id="dicionario__special-caracteres"
+                        class="uk-flex uk-flex-right uk-width-1-1 dicionario__special-caracteres">
+                        <button class="uk-button uk-button-default">ë</button>
+                        <button class="uk-button uk-button-default">ö</button>
+                        <button class="uk-button uk-button-default">ü</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+
+      <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-flex tiles" uk-grid>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-padding uk-flex uk-flex-bottom"><a href="#">Dizionario elettronico piemontese</a></div>
+         </div>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-bottom">Proverbi e modi di dire</div>
+         </div>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-bottom">Introduzione alla grafica Villata - Eandi</div>
+         </div>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-bottom">Grammatica piemontese</div>
+         </div>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-bottom">Lese & Scrive</div>
+         </div>
+         <div>
+             <div class="uk-card uk-card-default uk-card-body uk-flex uk-flex-bottom">Liber Liber</div>
+         </div>
+     </div>
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit.min.js"
+      integrity="sha512-mI405K6ARd5O8ZY5r+y18Yii3L5UtzsvZI/lvVlMLcBks+hmtrU1snugQytxfJ9csZCz+gpR05CEBIHptP5c9Q=="
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.4/js/uikit-icons.min.js"
+      integrity="sha512-KfIWbfxVidgNi6olHjp4daDDZo6bFJmnaKKw7pBuCQGlXCqcZ2+gxqSBDg8F94Az4VUMv/2OXpyGoVy35SrCZQ=="
+      crossorigin="anonymous"></script>
+   <script src="./app.js"></script>
+</body>
+
+</html>
